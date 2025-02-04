@@ -1,8 +1,8 @@
 :root{
     --gradient: linear-gradient(
         180deg,
-        rgba(45, 112, 1253, 0.73)0%, 
-        #163e92 100%
+        #b1bacb 0%, 
+        #000308 100%
     );
     --dark: #001747;
     --grey: #b1bacb;
@@ -52,7 +52,7 @@ p{
     display: flex;
     flex-direction:column;
     justify-content: space-around;
-    border-radius: 2rem;
+    border-radius: ;
     background: var(--white);
     padding: 3rem;
     height: 50%;
@@ -75,14 +75,15 @@ h2 {
 
 .input-field{
     width: 100%;
-    border:0.06rem solid #d2d2d2bf;
-    border-radius: 0.5rem;
+    border:0.06rem solid var(--grey);
+    border-radius:0.5rem ;
     padding: 1.25rem;
     font-size: 1rem;
+    background-color: var(--grey);
 }
 
 input[type="text"]::placeholder{
-    color: var(--grey);
+    color: var(--grey-dark);
 }
 
 .todo-container{
@@ -133,7 +134,7 @@ input[type= "checkbox"]::before{
     font-size: 1.7rem;
     text-align: center ;
     border: 0.06rem solid var(--grey-border);
-    border-radius: 50%;
+    border-radius: ;
     color: transparent;
 }
 
@@ -141,7 +142,7 @@ input[type= "checkbox"]:checked::before{
     color:var(--white) ;
     background-color:var(--green) ;
     border: 0.06rem solid var(--green);
-    border-radius: 50%;
+    border-radius: ;
 }
 
 .counter{
@@ -168,10 +169,10 @@ color: var(--grey);
 
 .footer{
     display: flex;
-    gap: 1.8rem;
-    background-color: var(--white);
+    gap: 1rem;
+    background-color: transparent;
     padding: 1.2rem;
-    border-radius: 0.5rem;
+    border-radius: ;
 }
 
 .made-by, 
