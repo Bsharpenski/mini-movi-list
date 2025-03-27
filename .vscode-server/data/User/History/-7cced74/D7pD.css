@@ -1,0 +1,13 @@
+:root{
+    --gradient: red;
+}
+
+body{
+    background: var(--gradient);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+}

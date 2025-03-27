@@ -1,0 +1,42 @@
+2025-02-12 07:57:03.042 [info] Extension host with pid 3029 started
+2025-02-12 07:57:03.061 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onFileSystem:vsls'
+2025-02-12 07:57:03.325 [info] Lock '/home/damw1ndy/.vscode-server/data/User/workspaceStorage/511720a5056fda05475cd2b38a5622eb/vscode.lock': Lock acquired.
+2025-02-12 07:57:03.594 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-02-12 07:57:03.616 [info] Eager extensions activated
+2025-02-12 07:57:03.616 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-12 07:57:06.234 [error] Error: method:chat.getMessageHistory not supported
+	at handleResponse (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/vendor.js:110:190498)
+	at processMessageQueue (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/vendor.js:110:190792)
+	at Immediate.<anonymous> (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/vendor.js:110:191192)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-12 07:57:06.273 [error] TypeError: Cannot read properties of undefined (reading 'getCollaboratorCount')
+	at JoinedState.<anonymous> (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:550388)
+	at Generator.next (<anonymous>)
+	at /home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:542689
+	at new Promise (<anonymous>)
+	at r (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:542375)
+	at JoinedState.innerUpdateCollabStatusBarItem (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:550177)
+	at JoinedState.<anonymous> (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:549508)
+	at Generator.next (<anonymous>)
+	at /home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:542689
+	at new Promise (<anonymous>)
+	at r (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:542375)
+	at JoinedState.updateCollabStatusBarItem (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:549462)
+	at StatusBarController.<anonymous> (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:545745)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:542443)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-02-12 07:57:46.897 [info] Extension host terminating: received terminate message from renderer
+2025-02-12 07:57:46.897 [info] Lock '/home/damw1ndy/.vscode-server/data/User/workspaceStorage/511720a5056fda05475cd2b38a5622eb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-02-12 07:57:46.949 [error] TypeError: Cannot read properties of undefined (reading 'stop')
+	at SessionTelemetry.endSession (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:584965)
+	at SessionContext.updateTelemetryContext (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:159195)
+	at SessionContext.onSessionStateChanged (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:162533)
+	at D.B (file:///home/damw1ndy/.vscode-server/bin/e249dada235c2083c83813bd65b7f4707fb97b76/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.C (file:///home/damw1ndy/.vscode-server/bin/e249dada235c2083c83813bd65b7f4707fb97b76/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+	at D.fire (file:///home/damw1ndy/.vscode-server/bin/e249dada235c2083c83813bd65b7f4707fb97b76/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+	at SessionStateTracker.setState (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:167078)
+	at SessionStateTracker.transition (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:166787)
+	at LeaveCollaborationCommand.invoke (/home/damw1ndy/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948/extension.js:1:1655690)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-02-12 07:57:46.964 [info] Extension host with pid 3029 exiting with code 0

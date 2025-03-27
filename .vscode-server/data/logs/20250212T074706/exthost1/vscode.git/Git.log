@@ -1,0 +1,36 @@
+2025-02-12 07:47:08.376 [info] [main] Log level: Info
+2025-02-12 07:47:08.376 [info] [main] Validating found git in: "git"
+2025-02-12 07:47:08.376 [info] [main] Using git "2.43.0" from "git"
+2025-02-12 07:47:08.376 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-12 07:47:08.376 [info] > git rev-parse --show-toplevel [41ms]
+2025-02-12 07:47:08.376 [info] > git rev-parse --git-dir --git-common-dir [473ms]
+2025-02-12 07:47:08.376 [info] [Model][openRepository] Opened repository: /home/damw1ndy/fizzbuzz-js-tdd
+2025-02-12 07:47:08.376 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-12 07:47:08.383 [info] > git config --get commit.template [5ms]
+2025-02-12 07:47:08.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-02-12 07:47:08.407 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/damw1ndy/fizzbuzz-js-tdd/.git/refs/remotes/origin/main'
+2025-02-12 07:47:08.416 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2025-02-12 07:47:08.431 [info] > git status -z -uall [11ms]
+2025-02-12 07:47:08.432 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-12 07:47:08.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [159ms]
+2025-02-12 07:47:08.611 [info] > git config --get commit.template [8ms]
+2025-02-12 07:47:08.612 [info] > git config --get --local branch.main.vscode-merge-base [4ms]
+2025-02-12 07:47:08.668 [info] > git show --textconv :fizzBuzz.test.js [15ms]
+2025-02-12 07:47:08.669 [info] > git ls-files --stage -- /home/damw1ndy/fizzbuzz-js-tdd/fizzBuzz.test.js [14ms]
+2025-02-12 07:47:08.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [53ms]
+2025-02-12 07:47:08.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [57ms]
+2025-02-12 07:47:08.828 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/damw1ndy/fizzbuzz-js-tdd/.git/refs/remotes/origin/main'
+2025-02-12 07:47:08.878 [info] > git cat-file -s ab66510b7a9149bfb49cec5f50b8cc28eeff4ab4 [207ms]
+2025-02-12 07:47:08.885 [info] > git rev-parse refs/remotes/origin/main [57ms]
+2025-02-12 07:47:08.889 [info] > git merge-base refs/heads/main refs/remotes/origin/main [215ms]
+2025-02-12 07:47:08.893 [info] > git status -z -uall [6ms]
+2025-02-12 07:47:08.894 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-12 07:47:08.927 [info] > git merge-base refs/heads/main refs/remotes/origin/main [29ms]
+2025-02-12 07:47:08.929 [info] > git diff --name-status -z --diff-filter=ADMR 6c71f9a8e4c8dc64a3b7e2d19c3edb4684c92f1c...refs/remotes/origin/main [38ms]
+2025-02-12 07:47:08.941 [info] > git check-ignore -v -z --stdin [10ms]
+2025-02-12 07:47:08.942 [info] > git diff --name-status -z --diff-filter=ADMR 6c71f9a8e4c8dc64a3b7e2d19c3edb4684c92f1c...refs/remotes/origin/main [14ms]
+2025-02-12 07:47:08.949 [info] > git blame --root --incremental 6c71f9a8e4c8dc64a3b7e2d19c3edb4684c92f1c -- /home/damw1ndy/fizzbuzz-js-tdd/fizzBuzz.test.js [1ms]
+2025-02-12 07:47:09.618 [info] > git show --textconv :fizzBuzz.js [2ms]
+2025-02-12 07:47:09.618 [info] > git ls-files --stage -- /home/damw1ndy/fizzbuzz-js-tdd/fizzBuzz.js [1ms]
+2025-02-12 07:47:09.645 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [25ms]
+2025-02-12 07:47:14.031 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [7ms]

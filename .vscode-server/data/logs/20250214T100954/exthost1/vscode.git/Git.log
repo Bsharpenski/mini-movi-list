@@ -1,0 +1,312 @@
+2025-02-14 10:09:56.695 [info] [main] Log level: Info
+2025-02-14 10:09:56.695 [info] [main] Validating found git in: "git"
+2025-02-14 10:09:56.695 [info] [main] Using git "2.43.0" from "git"
+2025-02-14 10:09:56.695 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-14 10:09:56.695 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-14 10:09:56.695 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-02-14 10:09:56.695 [info] [Model][openRepository] Opened repository: /home/damw1ndy
+2025-02-14 10:09:56.696 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-14 10:09:56.697 [info] > git config --get commit.template [10ms]
+2025-02-14 10:09:56.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-14 10:09:56.718 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-14 10:09:56.721 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-02-14 10:09:56.724 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-14 10:09:56.731 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-14 10:09:56.761 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-14 10:09:56.887 [info] > git rev-parse --show-toplevel [28ms]
+2025-02-14 10:09:56.890 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-14 10:09:56.893 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-14 10:09:56.897 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-14 10:09:56.899 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-14 10:09:56.901 [info] [Model][openRepository] Opened repository: /home/damw1ndy/.nvm
+2025-02-14 10:09:56.933 [info] > git rev-parse --show-toplevel [28ms]
+2025-02-14 10:09:56.933 [info] > git config --get commit.template [29ms]
+2025-02-14 10:09:56.937 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-14 10:09:56.940 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-14 10:09:56.940 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [3ms]
+2025-02-14 10:09:56.947 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-14 10:09:56.947 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-14 10:09:56.949 [info] [Model][openRepository] Opened repository: /home/damw1ndy/fizzbuzz-js-tdd
+2025-02-14 10:09:56.954 [info] > git config --get commit.template [2ms]
+2025-02-14 10:09:56.956 [info] > git status -z -uall [14ms]
+2025-02-14 10:09:56.957 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-14 10:09:56.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2025-02-14 10:09:56.991 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/damw1ndy/fizzbuzz-js-tdd/.git/refs/remotes/origin/main'
+2025-02-14 10:09:56.992 [info] > git config --get commit.template [26ms]
+2025-02-14 10:09:56.993 [info] > git rev-parse --git-dir --git-common-dir [29ms]
+2025-02-14 10:09:56.995 [info] [Model][openRepository] Opened repository: /home/damw1ndy/html-excercise
+2025-02-14 10:09:57.001 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2025-02-14 10:09:57.008 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-14 10:09:57.008 [info] > git config --get commit.template [10ms]
+2025-02-14 10:09:57.008 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [278ms]
+2025-02-14 10:09:57.020 [info] > git status -z -uall [17ms]
+2025-02-14 10:09:57.020 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [13ms]
+2025-02-14 10:09:57.024 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2025-02-14 10:09:57.034 [info] > git status -z -uall [12ms]
+2025-02-14 10:09:57.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-14 10:09:57.037 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-02-14 10:09:57.039 [info] > git rev-parse --git-dir --git-common-dir [21ms]
+2025-02-14 10:09:57.041 [info] [Model][openRepository] Opened repository: /home/damw1ndy/html-excercise1
+2025-02-14 10:09:57.041 [info] > git hash-object -t tree /dev/null [25ms]
+2025-02-14 10:09:57.064 [info] > git config --get --local branch.main.vscode-merge-base [26ms]
+2025-02-14 10:09:57.066 [info] > git config --get commit.template [33ms]
+2025-02-14 10:09:57.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2025-02-14 10:09:57.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2025-02-14 10:09:57.077 [info] > git rev-parse --show-toplevel [30ms]
+2025-02-14 10:09:57.077 [info] > git config --get commit.template [32ms]
+2025-02-14 10:09:57.077 [info] > git rev-list origin/main..main [34ms]
+2025-02-14 10:09:57.082 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2025-02-14 10:09:57.085 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2025-02-14 10:09:57.089 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-14 10:09:57.089 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-02-14 10:09:57.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-02-14 10:09:57.095 [info] > git diff --name-status -z --diff-filter=ADMR 6c71f9a8e4c8dc64a3b7e2d19c3edb4684c92f1c...refs/remotes/origin/main [11ms]
+2025-02-14 10:09:57.098 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/damw1ndy/fizzbuzz-js-tdd/.git/refs/remotes/origin/main'
+2025-02-14 10:09:57.184 [info] > git status -z -uall [116ms]
+2025-02-14 10:09:57.184 [info] > git status -z -uall [91ms]
+2025-02-14 10:09:57.184 [info] > git rev-parse --show-toplevel [93ms]
+2025-02-14 10:09:57.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-02-14 10:09:57.209 [info] > git rev-parse refs/remotes/origin/main [111ms]
+2025-02-14 10:09:57.213 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [118ms]
+2025-02-14 10:09:57.356 [info] > git status -z -uall [145ms]
+2025-02-14 10:09:57.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [141ms]
+2025-02-14 10:09:57.358 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [146ms]
+2025-02-14 10:09:57.360 [info] > git config --get --local branch.main.vscode-merge-base [151ms]
+2025-02-14 10:09:57.360 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-14 10:09:57.362 [info] > git config --get commit.template [159ms]
+2025-02-14 10:09:57.362 [info] > git rev-parse --git-dir --git-common-dir [161ms]
+2025-02-14 10:09:57.363 [info] [Model][openRepository] Opened repository: /home/damw1ndy/sdi-blended-async-scaffold
+2025-02-14 10:09:57.510 [info] > git reflog main --grep-reflog=branch: Created from *. [149ms]
+2025-02-14 10:09:57.512 [info] > git config --get --local branch.master.vscode-merge-base [154ms]
+2025-02-14 10:09:57.512 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-14 10:09:57.513 [info] > git config --get commit.template [295ms]
+2025-02-14 10:09:57.519 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2025-02-14 10:09:57.519 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-14 10:09:57.519 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-14 10:09:57.519 [info] > git rev-parse --show-toplevel [59ms]
+2025-02-14 10:09:57.519 [info] > git config --get commit.template [60ms]
+2025-02-14 10:09:57.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-02-14 10:09:57.527 [info] > git reflog master --grep-reflog=branch: Created from *. [14ms]
+2025-02-14 10:09:57.530 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-14 10:09:57.531 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-02-14 10:09:57.532 [info] [Model][openRepository] Opened repository: /home/damw1ndy/sdi-workshop-funderbar
+2025-02-14 10:09:57.533 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2025-02-14 10:09:57.540 [info] > git status -z -uall [15ms]
+2025-02-14 10:09:57.540 [info] > git status -z -uall [6ms]
+2025-02-14 10:09:57.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-02-14 10:09:57.549 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [21ms]
+2025-02-14 10:09:57.549 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-14 10:09:57.549 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-14 10:09:57.550 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-14 10:09:57.551 [info] > git config --get commit.template [13ms]
+2025-02-14 10:09:57.551 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2025-02-14 10:09:57.560 [info] > git status -z -uall [2ms]
+2025-02-14 10:09:57.560 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-02-14 10:09:57.562 [info] [Model][openRepository] Opened repository: /home/damw1ndy/signup-form
+2025-02-14 10:09:57.574 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-02-14 10:09:57.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2025-02-14 10:09:57.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-02-14 10:09:57.598 [info] > git rev-parse --show-toplevel [32ms]
+2025-02-14 10:09:57.600 [info] [Model][doInitialScan] Initial repository scan completed - repositories (8), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-14 10:09:57.601 [info] > git config --get commit.template [37ms]
+2025-02-14 10:09:57.608 [info] > git config --get --local branch.main.vscode-merge-base [10ms]
+2025-02-14 10:09:57.610 [info] > git config --get commit.template [28ms]
+2025-02-14 10:09:57.613 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-14 10:09:57.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [10ms]
+2025-02-14 10:09:57.660 [info] > git status -z -uall [44ms]
+2025-02-14 10:09:57.660 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+2025-02-14 10:09:57.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2025-02-14 10:09:57.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [54ms]
+2025-02-14 10:09:57.767 [info] > git status -z -uall [100ms]
+2025-02-14 10:09:57.768 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [99ms]
+2025-02-14 10:09:57.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [109ms]
+2025-02-14 10:09:57.774 [info] > git merge-base refs/heads/main refs/remotes/origin/main [153ms]
+2025-02-14 10:09:57.785 [info] > git status -z -uall [1074ms] (cancelled)
+2025-02-14 10:09:57.786 [info] > git config --get --local branch.master.vscode-merge-base [12ms]
+2025-02-14 10:09:57.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2025-02-14 10:09:57.790 [info] > git config --get commit.template [24ms]
+2025-02-14 10:09:57.798 [info] > git check-ignore -v -z --stdin [13ms]
+2025-02-14 10:09:57.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [79ms]
+2025-02-14 10:09:57.869 [info] > git config --get commit.template [88ms]
+2025-02-14 10:09:57.870 [info] > git diff --name-status -z --diff-filter=ADMR 249380afce8de72327a97db7bc0e7ff46a799dea...refs/remotes/origin/main [94ms]
+2025-02-14 10:09:58.025 [info] > git status -z -uall [16ms]
+2025-02-14 10:09:58.025 [info] > git merge-base refs/heads/master refs/remotes/origin/master [156ms]
+2025-02-14 10:09:58.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [162ms]
+2025-02-14 10:09:58.030 [info] > git config --get --local branch.master.vscode-merge-base [240ms]
+2025-02-14 10:09:58.030 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-14 10:09:58.831 [info] > git reflog master --grep-reflog=branch: Created from *. [800ms]
+2025-02-14 10:09:58.834 [info] > git config --get --local branch.main.vscode-merge-base [805ms]
+2025-02-14 10:09:58.834 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-14 10:09:58.836 [info] > git diff --name-status -z --diff-filter=ADMR 027994fb929ccf6e6a85a7bbb5590716e2a19d61...refs/remotes/origin/master [809ms]
+2025-02-14 10:09:58.837 [info] > git config --get commit.template [823ms]
+2025-02-14 10:09:58.837 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [825ms]
+2025-02-14 10:09:58.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [832ms]
+2025-02-14 10:09:58.876 [info] > git check-ignore -v -z --stdin [34ms]
+2025-02-14 10:09:58.877 [info] > git check-ignore -v -z --stdin [33ms]
+2025-02-14 10:09:58.877 [info] > git check-ignore -v -z --stdin [31ms]
+2025-02-14 10:09:58.877 [info] > git check-ignore -v -z --stdin [29ms]
+2025-02-14 10:09:58.878 [info] > git check-ignore -v -z --stdin [27ms]
+2025-02-14 10:09:58.878 [info] > git check-ignore -v -z --stdin [27ms]
+2025-02-14 10:09:58.878 [info] > git check-ignore -v -z --stdin [25ms]
+2025-02-14 10:09:58.878 [info] > git check-ignore -v -z --stdin [24ms]
+2025-02-14 10:09:58.878 [info] > git reflog main --grep-reflog=branch: Created from *. [42ms]
+2025-02-14 10:09:58.881 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [47ms]
+2025-02-14 10:09:58.881 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-14 10:09:58.881 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-14 10:09:58.881 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [57ms]
+2025-02-14 10:09:58.892 [info] > git status -z -uall [8ms]
+2025-02-14 10:09:58.892 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [11ms]
+2025-02-14 10:09:58.892 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-14 10:09:58.892 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-14 10:09:58.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-14 10:09:58.896 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-02-14 10:09:58.905 [info] > git status -z -uall [4ms]
+2025-02-14 10:09:58.905 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2025-02-14 10:09:58.916 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-02-14 10:09:58.919 [info] > git diff --name-status -z --diff-filter=ADMR d22442d74bd5c540cc3b9c087b4095bf0e78db4c...refs/remotes/origin/main [11ms]
+2025-02-14 10:09:58.927 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-14 10:09:58.995 [info] > git show --textconv :projects/StarDex/style.css [4ms]
+2025-02-14 10:09:58.996 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-14 10:09:59.032 [info] > git cat-file -s 77ad341d1ca5d8f3ba8c9ad846562c8f86bea3bf [34ms]
+2025-02-14 10:09:59.037 [info] > git status -z -uall [115ms] (cancelled)
+2025-02-14 10:09:59.038 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-14 10:09:59.939 [info] > git blame --root --incremental ffa2495ff1f26ad2640a16c6c43e75d77338ac16 -- /home/damw1ndy/projects/StarDex/style.css [827ms]
+2025-02-14 10:10:16.900 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [95ms]
+2025-02-14 10:10:16.905 [info] > git rev-list origin/main..main [2ms]
+2025-02-14 10:10:17.052 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-14 10:10:17.053 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-14 10:10:17.056 [info] > git cat-file -s c676e26b76e6bf89510dc08010f6919e3af7ee29 [1ms]
+2025-02-14 10:10:17.104 [info] > git blame --root --incremental ffa2495ff1f26ad2640a16c6c43e75d77338ac16 -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-14 10:12:32.061 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-14 10:12:34.559 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-14 10:13:19.762 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-14 10:13:27.389 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/index.html [1ms]
+2025-02-14 10:13:27.627 [info] > git show --textconv :project1/index.html [2ms]
+2025-02-14 10:13:27.629 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:13:27.632 [info] > git ls-files --stage -- /home/damw1ndy/project1/index.html [5ms]
+2025-02-14 10:13:27.632 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:13:40.859 [info] > git blame --root --incremental ffa2495ff1f26ad2640a16c6c43e75d77338ac16 -- /home/damw1ndy/project1/index.html [1ms]
+2025-02-14 10:13:40.859 [info] fatal: no such path project1/index.html in ffa2495ff1f26ad2640a16c6c43e75d77338ac16
+2025-02-14 10:19:11.528 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/README.md [84ms]
+2025-02-14 10:19:11.622 [info] > git show --textconv :project1/README.md [3ms]
+2025-02-14 10:19:11.623 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/README.md.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2FREADME.md%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:19:11.623 [info] > git ls-files --stage -- /home/damw1ndy/project1/README.md [1ms]
+2025-02-14 10:19:11.624 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/README.md.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2FREADME.md%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:19:13.297 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/index.html [2ms]
+2025-02-14 10:19:13.493 [info] > git show --textconv :project1/index.html [7ms]
+2025-02-14 10:19:13.493 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:19:13.494 [info] > git ls-files --stage -- /home/damw1ndy/project1/index.html [3ms]
+2025-02-14 10:19:13.494 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:20:02.399 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/index.html [14ms]
+2025-02-14 10:20:45.180 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-14 10:21:00.569 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-14 10:33:05.997 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/index.html [2ms]
+2025-02-14 10:54:22.123 [info] > git show --textconv :projects/StarDex/index.html [4ms]
+2025-02-14 10:54:22.124 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [3ms]
+2025-02-14 10:54:22.128 [info] > git cat-file -s c676e26b76e6bf89510dc08010f6919e3af7ee29 [1ms]
+2025-02-14 10:54:22.199 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [258ms]
+2025-02-14 10:54:23.922 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/poke.js [51ms]
+2025-02-14 10:54:24.133 [info] > git show --textconv :project1/poke.js [4ms]
+2025-02-14 10:54:24.133 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:54:24.134 [info] > git ls-files --stage -- /home/damw1ndy/project1/poke.js [2ms]
+2025-02-14 10:54:24.135 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:54:26.547 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/index.html [5ms]
+2025-02-14 10:54:26.724 [info] > git show --textconv :project1/index.html [3ms]
+2025-02-14 10:54:26.725 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:54:26.725 [info] > git ls-files --stage -- /home/damw1ndy/project1/index.html [1ms]
+2025-02-14 10:54:26.726 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:55:09.809 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/main.css [3ms]
+2025-02-14 10:55:10.011 [info] > git show --textconv :project1/main.css [3ms]
+2025-02-14 10:55:10.011 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/main.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fmain.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:55:10.012 [info] > git ls-files --stage -- /home/damw1ndy/project1/main.css [2ms]
+2025-02-14 10:55:10.012 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/main.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fmain.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:55:11.331 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/poke.js [3ms]
+2025-02-14 10:55:11.534 [info] > git show --textconv :project1/poke.js [5ms]
+2025-02-14 10:55:11.534 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:55:11.535 [info] > git ls-files --stage -- /home/damw1ndy/project1/poke.js [2ms]
+2025-02-14 10:55:11.535 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:55:18.719 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/index.html [2ms]
+2025-02-14 10:55:18.909 [info] > git show --textconv :project1/index.html [4ms]
+2025-02-14 10:55:18.909 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:55:18.910 [info] > git ls-files --stage -- /home/damw1ndy/project1/index.html [2ms]
+2025-02-14 10:55:18.910 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:55:58.126 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/poke.js [14ms]
+2025-02-14 10:55:58.305 [info] > git show --textconv :project1/poke.js [4ms]
+2025-02-14 10:55:58.305 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:55:58.306 [info] > git ls-files --stage -- /home/damw1ndy/project1/poke.js [2ms]
+2025-02-14 10:55:58.306 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 10:56:04.754 [info] > git blame --root --incremental ffa2495ff1f26ad2640a16c6c43e75d77338ac16 -- /home/damw1ndy/project1/poke.js [2ms]
+2025-02-14 10:56:04.754 [info] fatal: no such path project1/poke.js in ffa2495ff1f26ad2640a16c6c43e75d77338ac16
+2025-02-14 11:02:47.365 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-14 11:02:50.358 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/main.css [2ms]
+2025-02-14 11:02:50.553 [info] > git show --textconv :project1/main.css [4ms]
+2025-02-14 11:02:50.553 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/main.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fmain.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:02:50.554 [info] > git ls-files --stage -- /home/damw1ndy/project1/main.css [2ms]
+2025-02-14 11:02:50.555 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/main.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fmain.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:02:49.446 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/index.html [3ms]
+2025-02-14 11:02:49.626 [info] > git show --textconv :project1/index.html [5ms]
+2025-02-14 11:02:49.627 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:02:49.627 [info] > git ls-files --stage -- /home/damw1ndy/project1/index.html [2ms]
+2025-02-14 11:02:49.628 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:02:51.528 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/poke.js [2ms]
+2025-02-14 11:02:51.707 [info] > git show --textconv :project1/poke.js [3ms]
+2025-02-14 11:02:51.708 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:02:51.708 [info] > git ls-files --stage -- /home/damw1ndy/project1/poke.js [1ms]
+2025-02-14 11:02:51.708 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:07:50.445 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/index.html [2ms]
+2025-02-14 11:07:50.610 [info] > git show --textconv :project1/index.html [4ms]
+2025-02-14 11:07:50.610 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:07:50.611 [info] > git ls-files --stage -- /home/damw1ndy/project1/index.html [1ms]
+2025-02-14 11:07:50.611 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:07:52.989 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/poke.js [14ms]
+2025-02-14 11:07:53.156 [info] > git show --textconv :project1/poke.js [3ms]
+2025-02-14 11:07:53.156 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:07:53.157 [info] > git ls-files --stage -- /home/damw1ndy/project1/poke.js [1ms]
+2025-02-14 11:07:53.157 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:07:54.265 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/main.css [1ms]
+2025-02-14 11:07:54.466 [info] > git show --textconv :project1/main.css [4ms]
+2025-02-14 11:07:54.466 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/main.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fmain.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:07:54.467 [info] > git ls-files --stage -- /home/damw1ndy/project1/main.css [1ms]
+2025-02-14 11:07:54.467 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/main.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fmain.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:07:55.550 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/poke.js [2ms]
+2025-02-14 11:07:55.761 [info] > git show --textconv :project1/poke.js [3ms]
+2025-02-14 11:07:55.761 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:07:55.762 [info] > git ls-files --stage -- /home/damw1ndy/project1/poke.js [1ms]
+2025-02-14 11:07:55.762 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:07:56.232 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/index.html [2ms]
+2025-02-14 11:07:56.419 [info] > git show --textconv :project1/index.html [3ms]
+2025-02-14 11:07:56.419 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:07:56.420 [info] > git ls-files --stage -- /home/damw1ndy/project1/index.html [1ms]
+2025-02-14 11:07:56.421 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:08:02.570 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/poke.js [3ms]
+2025-02-14 11:08:02.761 [info] > git show --textconv :project1/poke.js [4ms]
+2025-02-14 11:08:02.761 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:08:02.762 [info] > git ls-files --stage -- /home/damw1ndy/project1/poke.js [1ms]
+2025-02-14 11:08:02.762 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:08:03.200 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/main.css [2ms]
+2025-02-14 11:08:03.403 [info] > git show --textconv :project1/main.css [3ms]
+2025-02-14 11:08:03.403 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/main.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fmain.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:08:03.403 [info] > git ls-files --stage -- /home/damw1ndy/project1/main.css [1ms]
+2025-02-14 11:08:03.404 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/main.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fmain.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:08:05.842 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/poke.js [2ms]
+2025-02-14 11:08:06.036 [info] > git show --textconv :project1/poke.js [3ms]
+2025-02-14 11:08:06.036 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:08:06.038 [info] > git ls-files --stage -- /home/damw1ndy/project1/poke.js [2ms]
+2025-02-14 11:08:06.038 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/poke.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Fpoke.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:08:09.271 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/project1/index.html [2ms]
+2025-02-14 11:08:09.464 [info] > git show --textconv :project1/index.html [3ms]
+2025-02-14 11:08:09.465 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:08:09.465 [info] > git ls-files --stage -- /home/damw1ndy/project1/index.html [1ms]
+2025-02-14 11:08:09.465 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/project1/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fproject1%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-14 11:08:35.121 [info] > git config --get commit.template [3ms]
+2025-02-14 11:08:35.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-14 11:08:35.129 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-14 11:08:36.452 [info] > git status -z -uall [1327ms] (cancelled)
+2025-02-14 11:09:00.874 [info] > git config --get commit.template [3ms]
+2025-02-14 11:09:00.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-14 11:09:00.881 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-14 11:09:01.044 [info] > git status -z -uall [167ms] (cancelled)
+2025-02-14 11:09:12.018 [info] > git config --get commit.template [3ms]
+2025-02-14 11:09:12.020 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-14 11:09:12.026 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-14 11:09:12.184 [info] > git status -z -uall [162ms] (cancelled)

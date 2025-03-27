@@ -1,0 +1,5 @@
+2025-02-12 07:54:23.918 [info] Extension host with pid 2382 started
+2025-02-12 07:54:23.928 [info] Lock '/home/damw1ndy/.vscode-server/data/User/workspaceStorage/511720a5056fda05475cd2b38a5622eb/vscode.lock': Lock acquired.
+2025-02-12 07:54:51.006 [info] Extension host terminating: received terminate message from renderer
+2025-02-12 07:54:51.006 [info] Lock '/home/damw1ndy/.vscode-server/data/User/workspaceStorage/511720a5056fda05475cd2b38a5622eb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-02-12 07:54:51.007 [info] Extension host with pid 2382 exiting with code 0

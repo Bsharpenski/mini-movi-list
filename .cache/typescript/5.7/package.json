@@ -1,0 +1,1 @@
+{"private":true,"dependencies":{"types-registry":"^0.1.708"},"devDependencies":{"@types/jest":"^29.5.14","@types/live-server":"^1.2.3","@types/lodash":"^4.17.15","@types/prompt-sync":"^4.2.3"}}

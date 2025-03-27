@@ -1,0 +1,7 @@
+2025-02-13 11:15:25.090 [info] Extension host with pid 473 started
+2025-02-13 11:15:25.110 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onFileSystem:vsls'
+2025-02-13 11:15:25.110 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-13 11:15:25.417 [info] Lock '/home/damw1ndy/.vscode-server/data/User/workspaceStorage/511720a5056fda05475cd2b38a5622eb/vscode.lock': Lock acquired.
+2025-02-13 11:15:25.740 [info] Extension host terminating: received terminate message from renderer
+2025-02-13 11:15:25.741 [info] Lock '/home/damw1ndy/.vscode-server/data/User/workspaceStorage/511720a5056fda05475cd2b38a5622eb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-02-13 11:15:25.742 [info] Extension host with pid 473 exiting with code 0

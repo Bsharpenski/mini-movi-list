@@ -1,0 +1,25 @@
+2025-02-12 07:49:21.873 [info] [main] Log level: Info
+2025-02-12 07:49:21.873 [info] [main] Validating found git in: "git"
+2025-02-12 07:49:21.873 [info] [main] Using git "2.43.0" from "git"
+2025-02-12 07:49:21.873 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-12 07:49:21.873 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-12 07:49:21.873 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-02-12 07:49:21.873 [info] [Model][openRepository] Opened repository: /home/damw1ndy/fizzbuzz-js-tdd
+2025-02-12 07:49:21.873 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-12 07:49:21.874 [info] > git config --get commit.template [2ms]
+2025-02-12 07:49:21.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-12 07:49:21.880 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/damw1ndy/fizzbuzz-js-tdd/.git/refs/remotes/origin/main'
+2025-02-12 07:49:21.881 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-12 07:49:21.908 [info] > git status -z -uall [23ms]
+2025-02-12 07:49:21.916 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+2025-02-12 07:49:21.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-02-12 07:49:21.943 [info] > git config --get commit.template [17ms]
+2025-02-12 07:49:21.945 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2025-02-12 07:49:21.960 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-02-12 07:49:21.960 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [12ms]
+2025-02-12 07:49:21.965 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/damw1ndy/fizzbuzz-js-tdd/.git/refs/remotes/origin/main'
+2025-02-12 07:49:21.966 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-02-12 07:49:21.969 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-02-12 07:49:22.001 [info] > git status -z -uall [30ms]
+2025-02-12 07:49:22.001 [info] > git diff --name-status -z --diff-filter=ADMR 6c71f9a8e4c8dc64a3b7e2d19c3edb4684c92f1c...refs/remotes/origin/main [33ms]
+2025-02-12 07:49:22.003 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [30ms]

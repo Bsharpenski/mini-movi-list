@@ -1,0 +1,519 @@
+2025-02-13 11:17:34.285 [info] [main] Log level: Info
+2025-02-13 11:17:34.285 [info] [main] Validating found git in: "git"
+2025-02-13 11:17:34.285 [info] [main] Using git "2.43.0" from "git"
+2025-02-13 11:17:34.285 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-13 11:17:34.285 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-13 11:17:34.285 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-13 11:17:34.285 [info] [Model][openRepository] Opened repository: /home/damw1ndy
+2025-02-13 11:17:34.285 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-13 11:17:34.285 [info] > git config --get commit.template [8ms]
+2025-02-13 11:17:34.285 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2025-02-13 11:17:34.285 [info] [Model][openRepository] Opened repository: /home/damw1ndy/sdi-blended-async-scaffold
+2025-02-13 11:17:34.285 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-02-13 11:17:34.285 [info] > git config --get commit.template [393ms]
+2025-02-13 11:17:34.300 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-02-13 11:17:34.306 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-02-13 11:17:34.309 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-13 11:17:34.322 [info] > git status -z -uall [6ms]
+2025-02-13 11:17:34.322 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-13 11:17:34.331 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-02-13 11:17:34.352 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-02-13 11:17:34.355 [info] > git rev-parse --show-toplevel [26ms]
+2025-02-13 11:17:34.355 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/sdi-blended-async-scaffold/app.js [28ms]
+2025-02-13 11:17:34.387 [info] > git config --get --local branch.main.vscode-merge-base [32ms]
+2025-02-13 11:17:34.391 [info] > git config --get commit.template [46ms]
+2025-02-13 11:17:34.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2025-02-13 11:17:34.398 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-13 11:17:34.398 [info] > git hash-object -t tree /dev/null [16ms]
+2025-02-13 11:17:34.416 [info] > git merge-base refs/heads/main refs/remotes/origin/main [18ms]
+2025-02-13 11:17:34.428 [info] > git rev-parse --show-toplevel [24ms]
+2025-02-13 11:17:34.428 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2025-02-13 11:17:34.432 [info] > git diff --name-status -z --diff-filter=ADMR 249380afce8de72327a97db7bc0e7ff46a799dea...refs/remotes/origin/main [14ms]
+2025-02-13 11:17:34.538 [info] > git rev-parse --show-toplevel [106ms]
+2025-02-13 11:17:34.550 [info] > git status -z -uall [2ms]
+2025-02-13 11:17:34.550 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-13 11:17:34.585 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [35ms]
+2025-02-13 11:17:34.739 [info] > git rev-parse --show-toplevel [157ms]
+2025-02-13 11:17:34.755 [info] > git check-ignore -v -z --stdin [12ms]
+2025-02-13 11:17:34.755 [info] > git check-ignore -v -z --stdin [9ms]
+2025-02-13 11:17:34.757 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-02-13 11:17:34.760 [info] [Model][openRepository] Opened repository: /home/damw1ndy/.nvm
+2025-02-13 11:17:34.772 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-13 11:17:34.773 [info] > git config --get commit.template [9ms]
+2025-02-13 11:17:34.783 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-13 11:17:34.787 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [6ms]
+2025-02-13 11:17:34.793 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-13 11:17:34.796 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-13 11:17:34.797 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-13 11:17:34.799 [info] [Model][openRepository] Opened repository: /home/damw1ndy/fizzbuzz-js-tdd
+2025-02-13 11:17:34.858 [info] > git status -z -uall [68ms]
+2025-02-13 11:17:34.859 [info] > git rev-parse --show-toplevel [53ms]
+2025-02-13 11:17:34.859 [info] > git config --get commit.template [56ms]
+2025-02-13 11:17:34.877 [info] > git config --get commit.template [10ms]
+2025-02-13 11:17:34.877 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2025-02-13 11:17:34.880 [info] [Model][openRepository] Opened repository: /home/damw1ndy/html-excercise
+2025-02-13 11:17:34.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-02-13 11:17:34.898 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/damw1ndy/fizzbuzz-js-tdd/.git/refs/remotes/origin/main'
+2025-02-13 11:17:34.898 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-13 11:17:34.899 [info] > git config --get commit.template [14ms]
+2025-02-13 11:17:34.902 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-02-13 11:17:34.906 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [11ms]
+2025-02-13 11:17:34.965 [info] > git status -z -uall [61ms]
+2025-02-13 11:17:34.965 [info] > git status -z -uall [57ms]
+2025-02-13 11:17:34.965 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [59ms]
+2025-02-13 11:17:34.971 [info] > git rev-parse --git-dir --git-common-dir [70ms]
+2025-02-13 11:17:34.974 [info] [Model][openRepository] Opened repository: /home/damw1ndy/html-excercise1
+2025-02-13 11:17:35.096 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [126ms]
+2025-02-13 11:17:35.099 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [186ms]
+2025-02-13 11:17:35.104 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [194ms]
+2025-02-13 11:17:35.114 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-02-13 11:17:35.115 [info] > git config --get --local branch.main.vscode-merge-base [16ms]
+2025-02-13 11:17:35.119 [info] > git rev-parse --show-toplevel [43ms]
+2025-02-13 11:17:35.119 [info] > git config --get commit.template [139ms]
+2025-02-13 11:17:35.119 [info] > git config --get commit.template [141ms]
+2025-02-13 11:17:35.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2025-02-13 11:17:35.199 [info] > git rev-parse --show-toplevel [76ms]
+2025-02-13 11:17:35.213 [info] > git status -z -uall [112ms]
+2025-02-13 11:17:35.214 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [81ms]
+2025-02-13 11:17:35.220 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [89ms]
+2025-02-13 11:17:35.240 [info] > git merge-base refs/heads/main refs/remotes/origin/main [112ms]
+2025-02-13 11:17:35.246 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/damw1ndy/fizzbuzz-js-tdd/.git/refs/remotes/origin/main'
+2025-02-13 11:17:35.283 [info] > git status -z -uall [66ms]
+2025-02-13 11:17:35.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [45ms]
+2025-02-13 11:17:35.286 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [67ms]
+2025-02-13 11:17:35.292 [info] > git rev-parse --show-toplevel [90ms]
+2025-02-13 11:17:35.311 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2025-02-13 11:17:35.314 [info] > git config --get --local branch.main.vscode-merge-base [28ms]
+2025-02-13 11:17:35.315 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-13 11:17:35.318 [info] > git config --get commit.template [69ms]
+2025-02-13 11:17:35.318 [info] > git rev-parse refs/remotes/origin/main [72ms]
+2025-02-13 11:17:35.324 [info] > git diff --name-status -z --diff-filter=ADMR 6c71f9a8e4c8dc64a3b7e2d19c3edb4684c92f1c...refs/remotes/origin/main [81ms]
+2025-02-13 11:17:35.601 [info] > git status -z -uall [279ms]
+2025-02-13 11:17:35.601 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [278ms]
+2025-02-13 11:17:35.603 [info] > git reflog main --grep-reflog=branch: Created from *. [285ms]
+2025-02-13 11:17:35.606 [info] > git config --get --local branch.master.vscode-merge-base [291ms]
+2025-02-13 11:17:35.606 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-13 11:17:35.608 [info] > git rev-parse --git-dir --git-common-dir [309ms]
+2025-02-13 11:17:35.610 [info] [Model][openRepository] Opened repository: /home/damw1ndy/sdi-workshop-funderbar
+2025-02-13 11:17:35.611 [info] > git config --get commit.template [314ms]
+2025-02-13 11:17:35.632 [info] > git check-ignore -v -z --stdin [17ms]
+2025-02-13 11:17:35.632 [info] > git check-ignore -v -z --stdin [14ms]
+2025-02-13 11:17:35.633 [info] > git check-ignore -v -z --stdin [13ms]
+2025-02-13 11:17:35.633 [info] > git check-ignore -v -z --stdin [11ms]
+2025-02-13 11:17:35.633 [info] > git reflog master --grep-reflog=branch: Created from *. [26ms]
+2025-02-13 11:17:35.636 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [31ms]
+2025-02-13 11:17:35.636 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-13 11:17:35.636 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-13 11:17:35.672 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [36ms]
+2025-02-13 11:17:35.672 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-13 11:17:35.672 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-13 11:17:35.672 [info] > git rev-parse --show-toplevel [42ms]
+2025-02-13 11:17:35.672 [info] > git config --get commit.template [43ms]
+2025-02-13 11:17:35.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2025-02-13 11:17:35.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [47ms]
+2025-02-13 11:17:35.705 [info] > git status -z -uall [1412ms] (cancelled)
+2025-02-13 11:17:35.705 [info] > git status -z -uall [30ms]
+2025-02-13 11:17:35.705 [info] > git status -z -uall [17ms]
+2025-02-13 11:17:35.705 [info] > git rev-parse --git-dir --git-common-dir [25ms]
+2025-02-13 11:17:35.707 [info] [Model][openRepository] Opened repository: /home/damw1ndy/signup-form
+2025-02-13 11:17:35.710 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [33ms]
+2025-02-13 11:17:35.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2025-02-13 11:17:35.727 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [37ms]
+2025-02-13 11:17:35.729 [info] > git check-ignore -v -z --stdin [9ms]
+2025-02-13 11:17:35.805 [info] > git rev-parse --show-toplevel [80ms]
+2025-02-13 11:17:35.806 [info] [Model][doInitialScan] Initial repository scan completed - repositories (8), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-13 11:17:35.811 [info] > git config --get commit.template [88ms]
+2025-02-13 11:17:35.940 [info] > git show --textconv :app.js [132ms]
+2025-02-13 11:17:35.940 [info] > git ls-files --stage -- /home/damw1ndy/sdi-blended-async-scaffold/app.js [129ms]
+2025-02-13 11:17:35.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [139ms]
+2025-02-13 11:17:36.668 [info] > git config --get --local branch.main.vscode-merge-base [723ms]
+2025-02-13 11:17:36.668 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-13 11:17:36.670 [info] > git cat-file -s 2bc2cdc0654d212babb48a75459bd35568bd2c9b [728ms]
+2025-02-13 11:17:36.671 [info] > git rev-parse --show-toplevel [744ms]
+2025-02-13 11:17:36.671 [info] > git config --get commit.template [746ms]
+2025-02-13 11:17:36.710 [info] > git check-ignore -v -z --stdin [37ms]
+2025-02-13 11:17:36.710 [info] > git check-ignore -v -z --stdin [35ms]
+2025-02-13 11:17:36.711 [info] > git check-ignore -v -z --stdin [34ms]
+2025-02-13 11:17:36.711 [info] > git check-ignore -v -z --stdin [32ms]
+2025-02-13 11:17:36.711 [info] > git check-ignore -v -z --stdin [30ms]
+2025-02-13 11:17:36.711 [info] > git check-ignore -v -z --stdin [29ms]
+2025-02-13 11:17:36.711 [info] > git status -z -uall [8ms]
+2025-02-13 11:17:36.711 [info] > git reflog main --grep-reflog=branch: Created from *. [41ms]
+2025-02-13 11:17:36.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [101ms]
+2025-02-13 11:17:36.727 [info] > git status -z -uall [10ms]
+2025-02-13 11:17:36.727 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-13 11:17:36.735 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [21ms]
+2025-02-13 11:17:36.735 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-13 11:17:36.735 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-13 11:17:36.738 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [32ms]
+2025-02-13 11:17:36.757 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2025-02-13 11:17:36.761 [info] > git merge-base refs/heads/main refs/remotes/origin/main [22ms]
+2025-02-13 11:17:36.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2025-02-13 11:17:36.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2025-02-13 11:17:36.767 [info] > git config --get --local branch.master.vscode-merge-base [2ms]
+2025-02-13 11:17:36.767 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-13 11:17:36.770 [info] > git diff --name-status -z --diff-filter=ADMR d22442d74bd5c540cc3b9c087b4095bf0e78db4c...refs/remotes/origin/main [7ms]
+2025-02-13 11:17:36.770 [info] > git config --get --local branch.master.vscode-merge-base [10ms]
+2025-02-13 11:17:36.773 [info] > git config --get commit.template [21ms]
+2025-02-13 11:17:36.773 [info] > git config --get commit.template [23ms]
+2025-02-13 11:17:36.774 [info] > git reflog master --grep-reflog=branch: Created from *. [4ms]
+2025-02-13 11:17:36.783 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [10ms]
+2025-02-13 11:17:36.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-02-13 11:17:36.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2025-02-13 11:17:36.800 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [23ms]
+2025-02-13 11:17:36.800 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-13 11:17:36.800 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-13 11:17:36.803 [info] > git status -z -uall [8ms]
+2025-02-13 11:17:36.803 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-13 11:17:36.805 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-02-13 11:17:36.806 [info] > git merge-base refs/heads/master refs/remotes/origin/master [20ms]
+2025-02-13 11:17:36.814 [info] > git status -z -uall [3ms]
+2025-02-13 11:17:36.815 [info] > git diff --name-status -z --diff-filter=ADMR 027994fb929ccf6e6a85a7bbb5590716e2a19d61...refs/remotes/origin/master [7ms]
+2025-02-13 11:17:36.815 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-13 11:17:36.870 [info] > git blame --root --incremental 249380afce8de72327a97db7bc0e7ff46a799dea -- /home/damw1ndy/sdi-blended-async-scaffold/app.js [2ms]
+2025-02-13 11:17:37.238 [info] > git status -z -uall [449ms] (cancelled)
+2025-02-13 11:17:37.239 [info] > git check-ignore -v -z --stdin [0ms]
+2025-02-13 11:17:38.527 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 11:17:49.285 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-13 11:17:49.285 [info] > git check-ignore -v -z --stdin [3ms]
+2025-02-13 11:17:49.285 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 11:18:20.528 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 11:18:30.763 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-13 11:18:40.744 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 11:19:59.371 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 11:20:02.878 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/index.html [49ms]
+2025-02-13 11:20:02.913 [info] > git hash-object -t tree /dev/null [30ms]
+2025-02-13 11:20:03.030 [info] > git show --textconv :projects/index.html [5ms]
+2025-02-13 11:20:03.031 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:20:03.034 [info] > git ls-files --stage -- /home/damw1ndy/projects/index.html [5ms]
+2025-02-13 11:20:03.034 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:20:06.816 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 11:20:07.025 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-13 11:20:07.026 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:20:07.026 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 11:20:07.026 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:20:07.308 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 11:20:18.630 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 11:20:24.122 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 11:21:27.590 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 11:21:31.155 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/html-excercise1/index.html [3ms]
+2025-02-13 11:21:31.159 [info] > git hash-object -t tree /dev/null [1ms]
+2025-02-13 11:21:31.341 [info] > git show --textconv :index.html [3ms]
+2025-02-13 11:21:31.341 [info] > git ls-files --stage -- /home/damw1ndy/html-excercise1/index.html [2ms]
+2025-02-13 11:21:31.345 [info] > git cat-file -s 9aa1d2733ac0a6a42e5d6ca007dadbe856f0c273 [1ms]
+2025-02-13 11:21:38.991 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [3ms]
+2025-02-13 11:21:39.178 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-13 11:21:39.179 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:21:39.179 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 11:21:39.180 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:21:45.163 [info] > git blame --root --incremental d22442d74bd5c540cc3b9c087b4095bf0e78db4c -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 11:21:45.163 [info] fatal: no such path projects/StarDex/index.html in d22442d74bd5c540cc3b9c087b4095bf0e78db4c
+2025-02-13 11:21:53.848 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.js [2ms]
+2025-02-13 11:21:54.049 [info] > git show --textconv :projects/StarDex/index.js [4ms]
+2025-02-13 11:21:54.049 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:21:54.050 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.js [2ms]
+2025-02-13 11:21:54.050 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:21:55.161 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 11:21:55.365 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 11:21:55.366 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:21:55.366 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 11:21:55.367 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:22:11.543 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 11:22:17.212 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 11:22:17.401 [info] > git show --textconv :projects/StarDex/index.html [5ms]
+2025-02-13 11:22:17.401 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:22:17.402 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 11:22:17.402 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:22:38.164 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 11:33:14.467 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [14ms]
+2025-02-13 11:36:38.011 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [3ms]
+2025-02-13 11:36:38.189 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 11:36:38.189 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:36:38.191 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [3ms]
+2025-02-13 11:36:38.191 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:36:39.623 [info] > git blame --root --incremental d22442d74bd5c540cc3b9c087b4095bf0e78db4c -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 11:36:39.623 [info] fatal: no such path projects/StarDex/style.css in d22442d74bd5c540cc3b9c087b4095bf0e78db4c
+2025-02-13 11:36:42.362 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 11:36:42.544 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-13 11:36:42.545 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:36:42.545 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 11:36:42.547 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:40:35.550 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 11:40:35.726 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 11:40:35.726 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:40:35.727 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 11:40:35.727 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:43:45.965 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 11:43:46.130 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-13 11:43:46.132 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:43:46.132 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 11:43:46.132 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:44:18.139 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 11:44:18.318 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 11:44:18.319 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:44:18.320 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 11:44:18.320 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:47:17.941 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 11:47:18.118 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-13 11:47:18.119 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:47:18.119 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 11:47:18.120 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:47:21.566 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 11:47:21.743 [info] > git show --textconv :projects/StarDex/style.css [4ms]
+2025-02-13 11:47:21.743 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 11:47:21.743 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 11:47:21.743 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 12:54:08.170 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [3ms]
+2025-02-13 12:54:08.321 [info] > git show --textconv :projects/StarDex/index.html [2ms]
+2025-02-13 12:54:08.323 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 12:54:08.323 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 12:54:08.324 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:08:59.959 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 13:09:00.159 [info] > git show --textconv :projects/StarDex/style.css [2ms]
+2025-02-13 13:09:00.160 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:09:00.160 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 13:09:00.161 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:09:36.853 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/html-excercise1/index.html [6ms]
+2025-02-13 13:09:37.004 [info] > git show --textconv :index.html [2ms]
+2025-02-13 13:09:37.005 [info] > git ls-files --stage -- /home/damw1ndy/html-excercise1/index.html [1ms]
+2025-02-13 13:09:37.008 [info] > git cat-file -s 9aa1d2733ac0a6a42e5d6ca007dadbe856f0c273 [1ms]
+2025-02-13 13:09:42.242 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-13 13:09:44.076 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 13:09:51.475 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-13 13:09:53.207 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/signup-form/index.html [5ms]
+2025-02-13 13:09:53.213 [info] > git hash-object -t tree /dev/null [3ms]
+2025-02-13 13:09:53.375 [info] > git show --textconv :index.html [3ms]
+2025-02-13 13:09:53.376 [info] > git ls-files --stage -- /home/damw1ndy/signup-form/index.html [1ms]
+2025-02-13 13:09:53.379 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]
+2025-02-13 13:10:04.512 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-13 13:10:11.741 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-13 13:10:47.751 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-13 13:10:53.629 [info] > git check-ignore -v -z --stdin [3ms]
+2025-02-13 13:11:05.354 [info] > git blame --root --incremental de09b32801c62fb76decca0be882bbe8e76584e4 -- /home/damw1ndy/signup-form/index.html [2ms]
+2025-02-13 13:11:12.441 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 13:11:12.443 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:11:12.443 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 13:11:12.443 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:11:13.427 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 13:11:14.952 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 13:11:15.127 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-13 13:11:15.127 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:11:15.128 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 13:11:15.128 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:14:38.939 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 13:31:57.314 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 13:31:57.496 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 13:31:57.497 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:31:57.497 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 13:31:57.498 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:35:24.295 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n101 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [4ms]
+2025-02-13 13:35:24.297 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [10ms]
+2025-02-13 13:35:24.451 [info] > git show --textconv :projects/StarDex/index.html [4ms]
+2025-02-13 13:35:24.452 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:35:24.452 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 13:35:24.453 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:38:09.840 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [3ms]
+2025-02-13 13:38:10.012 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 13:38:10.013 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:38:10.013 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 13:38:10.014 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:45:54.425 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [3ms]
+2025-02-13 13:45:54.567 [info] > git show --textconv :projects/StarDex/index.html [5ms]
+2025-02-13 13:45:54.568 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:45:54.568 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 13:45:54.568 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:46:09.992 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 13:46:10.174 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 13:46:10.175 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:46:10.176 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 13:46:10.176 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:46:47.324 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [3ms]
+2025-02-13 13:46:47.473 [info] > git show --textconv :projects/StarDex/index.html [4ms]
+2025-02-13 13:46:47.473 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:46:47.474 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 13:46:47.474 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:47:37.140 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-13 13:47:40.389 [info] > git show --textconv :workshop/fund3/index.html [3ms]
+2025-02-13 13:47:40.391 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/index.html [2ms]
+2025-02-13 13:47:40.395 [info] > git cat-file -s abae0b1ce874c4fcdbf89e7ba755d75fbf3ba821 [2ms]
+2025-02-13 13:47:40.406 [info] > git blame --root --incremental d22442d74bd5c540cc3b9c087b4095bf0e78db4c -- /home/damw1ndy/workshop/fund3/index.html [3ms]
+2025-02-13 13:47:40.551 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [370ms]
+2025-02-13 13:48:06.130 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 13:48:06.291 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-13 13:48:06.291 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:48:06.292 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 13:48:06.292 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:48:14.625 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [43ms]
+2025-02-13 13:48:14.736 [info] > git show --textconv :workshop/fund3/index.html [3ms]
+2025-02-13 13:48:14.737 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/index.html [1ms]
+2025-02-13 13:48:14.741 [info] > git cat-file -s abae0b1ce874c4fcdbf89e7ba755d75fbf3ba821 [1ms]
+2025-02-13 13:48:16.451 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 13:48:16.624 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-13 13:48:16.625 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:48:16.625 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 13:48:16.626 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:48:18.407 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [38ms]
+2025-02-13 13:48:18.543 [info] > git show --textconv :workshop/fund3/index.html [2ms]
+2025-02-13 13:48:18.543 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/index.html [1ms]
+2025-02-13 13:48:18.547 [info] > git cat-file -s abae0b1ce874c4fcdbf89e7ba755d75fbf3ba821 [1ms]
+2025-02-13 13:48:18.545 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 13:48:18.704 [info] > git show --textconv :projects/StarDex/index.html [4ms]
+2025-02-13 13:48:18.704 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:48:18.705 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 13:48:18.705 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:48:20.677 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [38ms]
+2025-02-13 13:48:20.815 [info] > git show --textconv :workshop/fund3/index.html [3ms]
+2025-02-13 13:48:20.816 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/index.html [1ms]
+2025-02-13 13:48:20.820 [info] > git cat-file -s abae0b1ce874c4fcdbf89e7ba755d75fbf3ba821 [1ms]
+2025-02-13 13:48:25.001 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 13:48:25.185 [info] > git show --textconv :projects/StarDex/style.css [2ms]
+2025-02-13 13:48:25.186 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:48:25.186 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 13:48:25.186 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:48:30.869 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/style.css [45ms]
+2025-02-13 13:48:30.999 [info] > git show --textconv :workshop/fund3/style.css [3ms]
+2025-02-13 13:48:31.000 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/style.css [1ms]
+2025-02-13 13:48:31.004 [info] > git cat-file -s 0b0d8671743252130026092031d0b6fd2c3abab2 [0ms]
+2025-02-13 13:48:31.022 [info] > git blame --root --incremental d22442d74bd5c540cc3b9c087b4095bf0e78db4c -- /home/damw1ndy/workshop/fund3/style.css [2ms]
+2025-02-13 13:48:34.556 [info] > git show --textconv :projects/StarDex/style.css [4ms]
+2025-02-13 13:48:34.557 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:48:34.557 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 13:48:34.557 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 13:49:20.290 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 13:51:31.542 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 14:35:19.870 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 14:35:20.017 [info] > git show --textconv :projects/StarDex/index.html [4ms]
+2025-02-13 14:35:20.017 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:35:20.018 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:35:20.018 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:35:40.500 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [46ms]
+2025-02-13 14:35:40.636 [info] > git show --textconv :workshop/fund3/index.html [2ms]
+2025-02-13 14:35:40.637 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/index.html [2ms]
+2025-02-13 14:35:40.640 [info] > git cat-file -s abae0b1ce874c4fcdbf89e7ba755d75fbf3ba821 [1ms]
+2025-02-13 14:36:21.808 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/style.css [35ms]
+2025-02-13 14:36:21.945 [info] > git show --textconv :workshop/fund3/style.css [3ms]
+2025-02-13 14:36:21.946 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/style.css [1ms]
+2025-02-13 14:36:21.949 [info] > git cat-file -s 0b0d8671743252130026092031d0b6fd2c3abab2 [1ms]
+2025-02-13 14:36:35.138 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [4ms]
+2025-02-13 14:36:35.140 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n101 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [3ms]
+2025-02-13 14:36:35.297 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-13 14:36:35.298 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:36:35.299 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:36:35.300 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:37:04.126 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [49ms]
+2025-02-13 14:37:04.248 [info] > git show --textconv :workshop/fund3/index.html [3ms]
+2025-02-13 14:37:04.249 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/index.html [1ms]
+2025-02-13 14:37:04.253 [info] > git cat-file -s abae0b1ce874c4fcdbf89e7ba755d75fbf3ba821 [1ms]
+2025-02-13 14:37:14.066 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 14:37:14.229 [info] > git show --textconv :projects/StarDex/index.html [4ms]
+2025-02-13 14:37:14.229 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:37:14.230 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:37:14.230 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:37:24.491 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 14:37:24.670 [info] > git show --textconv :projects/StarDex/style.css [4ms]
+2025-02-13 14:37:24.671 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:37:24.671 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 14:37:24.671 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:37:31.524 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 14:37:31.678 [info] > git show --textconv :projects/StarDex/index.html [5ms]
+2025-02-13 14:37:31.678 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:37:31.678 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:37:31.679 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:37:41.187 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [5ms]
+2025-02-13 14:37:41.188 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n101 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 14:37:41.365 [info] > git show --textconv :projects/StarDex/style.css [4ms]
+2025-02-13 14:37:41.365 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:37:41.366 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 14:37:41.367 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:37:52.170 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/style.css [34ms]
+2025-02-13 14:37:52.172 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n101 --shortstat --follow -- /home/damw1ndy/workshop/fund3/style.css [35ms]
+2025-02-13 14:37:52.303 [info] > git show --textconv :workshop/fund3/style.css [4ms]
+2025-02-13 14:37:52.303 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/style.css [1ms]
+2025-02-13 14:37:52.307 [info] > git cat-file -s 0b0d8671743252130026092031d0b6fd2c3abab2 [1ms]
+2025-02-13 14:38:02.539 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 14:38:21.463 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 14:38:39.742 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/style.css [40ms]
+2025-02-13 14:38:39.744 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n101 --shortstat --follow -- /home/damw1ndy/workshop/fund3/style.css [39ms]
+2025-02-13 14:38:39.871 [info] > git show --textconv :workshop/fund3/style.css [3ms]
+2025-02-13 14:38:39.872 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/style.css [2ms]
+2025-02-13 14:38:39.877 [info] > git cat-file -s 0b0d8671743252130026092031d0b6fd2c3abab2 [2ms]
+2025-02-13 14:39:52.140 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 14:40:06.061 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [43ms]
+2025-02-13 14:40:06.071 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n101 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [48ms]
+2025-02-13 14:40:06.175 [info] > git show --textconv :workshop/fund3/index.html [3ms]
+2025-02-13 14:40:06.176 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/index.html [2ms]
+2025-02-13 14:40:06.180 [info] > git cat-file -s abae0b1ce874c4fcdbf89e7ba755d75fbf3ba821 [1ms]
+2025-02-13 14:40:08.036 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 14:40:08.037 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:40:08.038 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [2ms]
+2025-02-13 14:40:08.038 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:40:10.122 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [4ms]
+2025-02-13 14:40:10.123 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n101 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 14:40:10.299 [info] > git show --textconv :projects/StarDex/index.html [4ms]
+2025-02-13 14:40:10.300 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:40:10.300 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 14:40:10.300 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:41:22.748 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 14:42:01.456 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n101 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [38ms]
+2025-02-13 14:42:01.460 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [46ms]
+2025-02-13 14:42:01.567 [info] > git show --textconv :workshop/fund3/index.html [3ms]
+2025-02-13 14:42:01.568 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/index.html [2ms]
+2025-02-13 14:42:01.571 [info] > git cat-file -s abae0b1ce874c4fcdbf89e7ba755d75fbf3ba821 [1ms]
+2025-02-13 14:43:13.788 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:43:23.565 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [48ms]
+2025-02-13 14:43:25.571 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:43:29.084 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/index.html [37ms]
+2025-02-13 14:43:33.229 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:43:40.805 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/workshop/fund3/style.css [39ms]
+2025-02-13 14:43:40.815 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n101 --shortstat --follow -- /home/damw1ndy/workshop/fund3/style.css [46ms]
+2025-02-13 14:43:40.940 [info] > git show --textconv :workshop/fund3/style.css [3ms]
+2025-02-13 14:43:40.941 [info] > git ls-files --stage -- /home/damw1ndy/workshop/fund3/style.css [2ms]
+2025-02-13 14:43:40.944 [info] > git cat-file -s 0b0d8671743252130026092031d0b6fd2c3abab2 [1ms]
+2025-02-13 14:43:52.128 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [4ms]
+2025-02-13 14:43:52.130 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n101 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [3ms]
+2025-02-13 14:43:52.299 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 14:43:52.300 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:43:52.300 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 14:43:52.300 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:43:59.290 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:43:59.465 [info] > git show --textconv :projects/StarDex/index.html [3ms]
+2025-02-13 14:43:59.466 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:43:59.466 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:43:59.467 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-02-13 14:44:01.656 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:45:15.425 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:51:46.144 [info] > git config --get commit.template [3ms]
+2025-02-13 14:51:46.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-13 14:51:46.154 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-13 14:51:46.808 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 14:51:47.498 [info] > git status -z -uall [1351ms] (cancelled)
+2025-02-13 14:51:48.607 [info] > git show --textconv :projects/StarDex/index.html [8ms]
+2025-02-13 14:51:48.607 [info] > git show --textconv HEAD:projects/StarDex/index.html [5ms]
+2025-02-13 14:51:48.607 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [3ms]
+2025-02-13 14:51:48.610 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-13 14:51:48.611 [info] > git ls-tree -l HEAD -- /home/damw1ndy/projects/StarDex/index.html [4ms]
+2025-02-13 14:51:48.611 [warning] [GitFileSystemProvider][stat] File not found - git:/home/damw1ndy/projects/StarDex/index.html.git?%7B%22path%22%3A%22%2Fhome%2Fdamw1ndy%2Fprojects%2FStarDex%2Findex.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-13 14:51:48.612 [info] > git cat-file -s c676e26b76e6bf89510dc08010f6919e3af7ee29 [2ms]
+2025-02-13 14:52:25.327 [info] > git config --get commit.template [4ms]
+2025-02-13 14:52:25.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-13 14:52:25.335 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-13 14:52:25.546 [info] > git status -z -uall [215ms] (cancelled)
+2025-02-13 14:52:25.546 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-02-13 14:52:25.551 [info] > git blame --root --incremental ffa2495ff1f26ad2640a16c6c43e75d77338ac16 -- /home/damw1ndy/projects/StarDex/index.html [12ms]
+2025-02-13 14:52:25.554 [info] > git diff --name-status -z --diff-filter=ADMR d22442d74bd5c540cc3b9c087b4095bf0e78db4c...refs/remotes/origin/main [3ms]
+2025-02-13 14:52:26.487 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [79ms]
+2025-02-13 14:52:26.493 [info] > git rev-list origin/main..main [2ms]
+2025-02-13 14:52:26.655 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:52:26.660 [info] > git cat-file -s c676e26b76e6bf89510dc08010f6919e3af7ee29 [0ms]
+2025-02-13 14:52:26.665 [info] > git show --textconv :projects/StarDex/index.html [1ms]
+2025-02-13 14:53:59.022 [info] > git rev-list --count 437827ceba0ebe2a88174afecb0d52c10f4f484d.. -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 14:53:59.106 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n3 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [81ms]
+2025-02-13 14:53:59.125 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 92e7c9e8a8aceb2952bccc2609459d858f719237 --shortstat --follow -- /home/damw1ndy/projects/StarDex/index.html [2ms]
+2025-02-13 14:53:59.624 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/index.html [1ms]
+2025-02-13 14:53:59.627 [info] > git cat-file -s c676e26b76e6bf89510dc08010f6919e3af7ee29 [1ms]
+2025-02-13 14:53:59.634 [info] > git show --textconv :projects/StarDex/index.html [1ms]
+2025-02-13 15:06:00.212 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- /home/damw1ndy/projects/StarDex/style.css [45ms]
+2025-02-13 15:06:00.333 [info] > git show --textconv :projects/StarDex/style.css [3ms]
+2025-02-13 15:06:00.334 [info] > git ls-files --stage -- /home/damw1ndy/projects/StarDex/style.css [1ms]
+2025-02-13 15:06:00.338 [info] > git cat-file -s 77ad341d1ca5d8f3ba8c9ad846562c8f86bea3bf [1ms]
+2025-02-13 15:05:58.797 [info] > git blame --root --incremental ffa2495ff1f26ad2640a16c6c43e75d77338ac16 -- /home/damw1ndy/projects/StarDex/style.css [1ms]

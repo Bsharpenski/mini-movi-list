@@ -1,0 +1,246 @@
+:root{
+    --gradient: linear-gradient(
+        90deg,
+        #ffffff 0%, 
+        #0e1bcf 100%
+    );
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: var(--gradient);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Poppins', sans-serif ;
+    min-height: 100vh;
+    color: #fff;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 6rem;
+    margin-top: 2rem;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+    font-family: initial ;
+    font-style: bold;
+    background:  linear-gradient(270deg, rgb(250, 250, 250) 0%,  rgb(199, 15, 9) 100%);
+    width: 100%;
+    
+    padding-left: 33%;
+    
+}
+
+a{
+    font-size: 2rem;
+    color: #000000;
+    transition: color 0.3s;
+    font-weight: 999;
+    background:  linear-gradient(0deg, rgb(250, 250, 250) 52%, rgb(8, 8, 8) 48%, rgb(199, 15, 9) 58%);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border: 3px solid black;
+    border-radius: 250px ;
+    }
+
+
+h2{
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.poke-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.pokemon{
+    border: 10px solid rgb(226, 169, 13);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.9);
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #d65b14;
+    background: linear-gradient(200deg, rgb(14, 11, 240) 0%, rgb(192, 109, 70) 100%);
+    
+}
+
+.pokemon:hover {
+    transform: translateY(-10px);  
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);  
+}
+
+.pokemon .img-container{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    border: solid #df7233;
+    background: linear-gradient(180deg, rgb(87, 205, 252) 50%, rgb(3, 167, 16) 50%);
+   
+    }
+
+.pokemon .img-container img{
+    max-width: 90%;
+    filter: drop-shadow(0 5px 3px black);
+    width: 150px;
+}
+
+.pokemon .info{
+    margin-top: 0px;
+}
+
+.pokemon .number{
+    background-color: #0f0779;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: .75rem;
+    font: bold;
+    padding: 5px;
+    
+}
+
+.pokemon .name{
+    margin: 15px 0 7px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: beige;
+}
+
+.type span{
+    color:antiquewhite;
+    font-size: 1.2rem;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(90%);
+    transition: 0.3s ease-in;
+    overflow: auto;
+    height: 71%;
+    background-color: #0f0779;
+    color: rgb(219, 217, 196);
+    text-shadow: #010d22;
+}
+
+.stats p{
+    justify-content: space-between;
+}
+
+.pokemon:hover .stats{
+    transform: translateY(-100px);
+    padding-top: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+.flex > ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.flex > ul > li::first-letter{
+    text-transform: uppercase;
+}
+
+.search{
+    width: 100%;
+    max-width: 350px;
+    height: 45px;
+    margin: 1.5rem 0;
+    background-color: gray;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    color: #fff;
+    outline: none;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.search::placeholder{
+    text-align: center;
+    color: bisque;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search:focus {
+    border-color: #6f69bd;
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.search:hover{
+    transform: translateY(-10px);  
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+#comparison-container {
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: #0f0779;
+    border-radius: 5px;
+    width: 80%;
+    overflow-x: auto;
+    background: linear-gradient(180deg, rgb(226, 21, 21) 0%, rgb(236, 197, 19) 100%);
+}
+
+#comparison-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#comparison-container th, #comparison-container td {
+    padding: 10px;
+    border: 1px solid #7c6c6c;
+    text-align: center;
+    
+}
+
+#comparison-container th {
+    background-color: #ac0404;
+}
+
+.compare-btn{
+    background-color: #c29b85;
+    border: none;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+.compare-btn:hover{  
+    background-color: green;
+}

@@ -1,0 +1,4 @@
+2025-02-14 10:09:56.695 [info] Log level: Info
+2025-02-14 10:10:00.310 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for Bsharpenski/workshop/ffa2495ff1f26ad2640a16c6c43e75d77338ac16: TypeError: Cannot read properties of null (reading 'author')
+2025-02-14 10:10:17.404 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for Bsharpenski/workshop/ffa2495ff1f26ad2640a16c6c43e75d77338ac16: TypeError: Cannot read properties of null (reading 'author')
+2025-02-14 10:54:22.754 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for Bsharpenski/workshop/ffa2495ff1f26ad2640a16c6c43e75d77338ac16: TypeError: Cannot read properties of null (reading 'author')

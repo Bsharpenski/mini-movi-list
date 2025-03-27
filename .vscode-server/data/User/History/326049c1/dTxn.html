@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <h1>My page</h1>
+    <section class="todo">
+        <h2>To-do List</h2>
+        <div class="input">
+            <input 
+                type="text" 
+                class="input-field" 
+                id="todoInput" 
+                placeholder="Add a new task"
+                />
+        </div>
+        <ul>
+            <li id="todoList"></li>
+        </ul>
+        <div>
+            <hr class="counter"/>
+            <div class="counter-container">
+                <p><span>0 </span>items total</p>
+                <button id="deleteButton">Delete All</button>
+            </div>
+        </div>
+        <button class="btn">Add</button>
+    </section>
+   <footer>
+
+   </footer>
+    <script src="./index.js"></script>  
+</body>
+</html>

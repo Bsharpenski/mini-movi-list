@@ -1,0 +1,19 @@
+{
+  "name": "html-excercise",
+  "version": "1.0.0",
+  "description": "test files",
+  "main": "favorites.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bsharpenski/Static-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bsharpenski/Static-Website/issues"
+  },
+  "homepage": "https://github.com/Bsharpenski/Static-Website#readme"
+}
